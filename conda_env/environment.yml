@@ -1,14 +1,12 @@
 name: biobb_MDsetup_tutorial
 channels:
-  - conda-forge
   - bioconda
 dependencies:
-  - biobb_analysis==3.6.0
-  - biobb_io==3.6.0
-  - biobb_model==3.6.0
-  - biobb_md==3.6.0
+  - biobb_analysis
+  - biobb_io
+  - biobb_model
+  - biobb_md
   - nb_conda_kernels
   - plotly
   - nglview
-  - simpletraj
   - conda
